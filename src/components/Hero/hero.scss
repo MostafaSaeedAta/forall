@@ -1,0 +1,35 @@
+.hero {
+    .txt {
+        display: flex;
+        align-items: center;
+         
+        .title {
+            color: #45C0BE;
+        }
+        .para {
+            width: 350px;
+        }
+        button {
+            background: rgb(69,192,190);
+            background: linear-gradient(270deg, rgba(69,192,190,1) 50%, rgba(54,120,119,1) 100%);
+            border: none;
+            outline: none;
+            padding: 6px 20px;
+            color: #fff;
+            border-radius: 33px;
+            transition: all .3s ease-in-out;
+
+            &:hover {
+                 background: linear-gradient(90deg, rgba(69,192,190,1) 50%, rgba(54,120,119,1) 100%);
+            }
+                 
+        }
+    }
+
+    .img-right {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

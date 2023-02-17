@@ -1,0 +1,38 @@
+footer {
+    position: relative;
+   background-image: url(/src/assets/footer.png);
+   padding-top: 150px;
+   background-size: cover;
+    .z-index-1 {
+        z-index: 1;
+    }
+     .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50% ,-50%);
+        z-index: 1;
+        left: 50%;
+
+        img {
+            width: 100px;
+         }
+     }
+
+    .menu {
+        a {
+            text-decoration: none;
+            color: #fff;
+            padding: 15px 15px 15px 0;
+        }
+    }
+
+    .btm-shape {
+        background: #fff;
+        position: relative;
+        z-index: 0;
+     
+    }
+}

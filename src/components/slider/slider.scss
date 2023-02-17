@@ -1,0 +1,32 @@
+.slider {
+    .title {
+        color: #45C0BE;
+    }
+
+    .slide {
+        width: 120px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #B6E1DA;
+        padding: 8px;
+        border-radius: 16px;
+
+        .img-co {
+            border-radius: 16px;
+        }
+
+        
+    }
+}
+
+.slider-link {
+    text-decoration: none;
+    color: unset;
+}
+
+.slick-slider {
+    padding: 40px 0;
+    background: #EEF8FF;
+}

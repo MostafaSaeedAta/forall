@@ -1,0 +1,23 @@
+.company {
+    .company-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .title {
+        color: #45C0BE;
+        text-align: center;
+    }
+
+    .txt {
+        width: 400px;
+        text-align: center;
+
+        .co-para {
+            color: #2F2E41;
+        }
+    }
+}
