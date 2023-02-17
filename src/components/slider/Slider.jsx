@@ -4,7 +4,7 @@
  import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import axios from 'axios';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 
 
@@ -48,11 +48,11 @@ import { Link } from 'react-router-dom';
 
       { posts.map((post) => (
          
-              <div  key={post?.id} className='d-flex align-items-center justify-content-center'>
-                <Link className='slider-link' to={`/company/${post?.id}`} >
+              <div  key={post.id} className='d-flex align-items-center justify-content-center'>
+                <Link className='slider-link'  to={`/company/${post.id}`} state={{post:post}}>
                   <div className='slide'>
-                    <img src={post?.logo[128+'px']} className='mb-3 img-co' width='100px' height='100px'/>
-                    <p className='fw-bold'>{post?.name.value}</p>
+                    <img src={post.logo[128+'px']} className='mb-3 img-co' width='100px' height='100px'/>
+                    <p className='fw-bold'>{post.name.value}</p>
                   </div>
                 </Link>
               
