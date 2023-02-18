@@ -36,12 +36,7 @@ import { Link, useLocation } from 'react-router-dom';
 
    
 
-        <div className='d-flex align-items-center justify-content-center'>
-          <div className='slide'>
-            <img src='/src/assets/company.png' className='mb-3' width='100px' height='100px'/>
-            <p className='fw-bold'>Amazon</p>
-          </div>
-        </div> 
+         
 
 
        
