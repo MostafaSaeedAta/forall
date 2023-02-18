@@ -13,8 +13,8 @@ const Footer = () => {
             <a href="/">  Resources</a>
           </div>
           <div className='d-flex justify-content-center' >
-            <img src="/src/assets/play.png" width=' 130px' height=' 50px' alt="logo" />
-            <img src="/src/assets/app.png" width=' 130px' height=' 50px' alt="logo" />
+            <img src="play.png" width=' 130px' height=' 50px' alt="logo" />
+            <img src="app.png" width=' 130px' height=' 50px' alt="logo" />
 
           </div>
         </div>
@@ -34,11 +34,11 @@ const Footer = () => {
        </div>
         <div className="logo">
           <a href="/">
-              <img src="/src/assets/logo.png"   alt="logo" />
+              <img src="logo.png"   alt="logo" />
           </a>
           </div>
         <div className="btm-shape d-none">
-            <img src="/src/assets/footer.png"   alt="logo" />
+            <img src="footer.png"   alt="logo" />
         </div>
 
     </footer>

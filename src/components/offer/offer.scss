@@ -8,7 +8,7 @@
             color: #45C0BE;
         }
         .para {
-            width: 350px;
+            max-width: 350px;
         }
         button {
             background: rgb(69,192,190);
@@ -32,5 +32,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    @media (max-width:767px) {
+        .img-right img {
+            height: 200px !important;
+            margin-bottom: 20px;
+        }
     }
 }

@@ -1,6 +1,6 @@
 footer {
     position: relative;
-   background-image: url(/src/assets/footer.png);
+   background-image: url(footer.png);
    padding-top: 150px;
    background-size: cover;
     .z-index-1 {
@@ -35,4 +35,16 @@ footer {
         z-index: 0;
      
     }
-}
+
+@media (max-width:767px) {
+        .container{
+          flex-direction: column !important;
+          gap: 15px;
+        }
+
+        .logo {
+            display: none;
+        }
+    }
+   
+} 

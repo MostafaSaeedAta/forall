@@ -31,4 +31,14 @@ header {
         margin-top: -165px;
     
     }
+
+    @media (max-width:767px) {
+        .btm-shape {
+            display: none;
+        }
+
+        .menu {
+            display: none;
+        }
+    }
 }

@@ -9,7 +9,7 @@ const Offer = () => {
               
                 <div className='col-md-6'>
                     <div className='img-right'>
-                        <img src='/src/assets/offer.png' height='350px' alt='hero'/>
+                        <img src='offer.png' height='350px' alt='hero'/>
                     </div>
                 </div>
 

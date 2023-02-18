@@ -13,7 +13,7 @@ import { Link, useLocation } from 'react-router-dom';
 
   const [posts , setPosts] = useState([]);
   useEffect(()=>{
-    axios.get('https://forall.sa/services/api/ads/companies').then((Response)=>{
+    axios.get('https://forall.sa/services/api/ads/companies?page=1').then((Response)=>{
         console.log(Response.data.data);
         setPosts(Response.data.data);
     })

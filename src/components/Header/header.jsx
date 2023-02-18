@@ -7,7 +7,7 @@ const header = () => {
        <div className='container position-relative z-index-1  d-flex justify-content-between align-items-center'>
             <div className="bar">
                 <a href="/">
-                    <img src="/src/assets/bars.png" width='33px' height='37px' alt="logo" />
+                    <img src="bars.png" width='33px' height='37px' alt="logo" />
                 </a>
             </div>
            
@@ -20,11 +20,11 @@ const header = () => {
        </div>
        <div className="logo">
         <a href="/">
-            <img src="/src/assets/logo.png"   alt="logo" />
+            <img src="logo.png"   alt="logo" />
         </a>
         </div>
         <div className="btm-shape">
-            <img src="/src/assets/Path.png"   alt="logo" />
+            <img src="Path.png"   alt="logo" />
         </div>
 
     </header>
