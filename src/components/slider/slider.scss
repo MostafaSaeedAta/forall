@@ -1,6 +1,27 @@
 .slider {
+    position: relative;
     .title {
         color: #45C0BE;
+    }
+
+    .slide-btns {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+
+        button {
+            position: absolute;
+            top: 50%;
+            background: transparent;
+            outline: none;
+            border: none;
+            color: rgb(129, 94, 30);
+            font-size: 30px;
+        }
+        .next-btn {
+            right: 10px;
+        }
     }
 
     .slide {
